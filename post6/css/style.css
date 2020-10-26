@@ -96,8 +96,11 @@ li:nth-child(12) .post-img{
 	margin-top: 30%;
 	font-size: 14px;
 }
+.controll li:hover{
+	background-color: #e4e7ef;
+}
 .controll .active li{
-	background-color:blue;
+	background-color:#009cd8;
 	
 }
 .controll .active li p{
