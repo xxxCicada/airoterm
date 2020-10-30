@@ -13,13 +13,14 @@ html{
 	background-color: #f7f8fa;
 }
 .posts{
-	margin: 0 20%;
+	margin: 0 14%;
 	margin-top: 5%;
 }
 .posts h3{
 	font-size: 11pt;
 	margin-left: 30px;
 	margin-right: 7%;
+	min-height: 55px;
 }
 .posts li{
 	list-style: none;
@@ -27,9 +28,10 @@ html{
 	width: 20%;
 	margin-left: 1.5%;
 	margin-top: 1.5%;
-	min-height: 245px;
+	min-height: 115px;
 	background-color: #fff;
 	display: inline-block;
+	color:#000;
 }
 .post-img{
 	height: 130px;
@@ -42,7 +44,8 @@ html{
 .posts .date{
 	color: #999999;
 	font-size: 0.8em;
-	margin-top: 40px;
+	margin-top: 20px;
+	margin-bottom: 10px;
 	margin-left: 35px;
 
 }

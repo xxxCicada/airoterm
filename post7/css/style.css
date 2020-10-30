@@ -13,7 +13,7 @@ html{
 	background-color: #f7f8fa;
 }
 .news{
-	margin: 0 30% 0 20%;
+	margin: 0 1% 0 15%;
 	margin-top: 5%;
 	background-color: #fff;
 	padding: 2% 2% 2% 2%;
@@ -69,3 +69,67 @@ html{
 .news li{
 	color: #000;
 }
+.posts{
+	margin-top: 10%;
+	margin-right: 5%;
+}
+#conetnt{
+	display: flex;
+
+}
+.posts li{
+	list-style: none;
+	min-width: 260px;
+	width: 10%;
+	margin-left: 1.5%;
+	margin-top: 1.5%;
+	min-height: 115px;
+	background-color: #fff;
+	color:#000;
+	
+	
+}
+.post-img{
+	height: 130px;
+	background-position: center;
+	margin-bottom: 15px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	transition-duration: 0.5s;
+}
+.posts .date{
+	color: #999999;
+	font-size: 0.8em;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	margin-right: 35px;
+	text-align: right;
+
+}
+.posts h3{
+	font-size: 11pt;
+	margin-left: 30px;
+	margin-right: 7%;
+	min-height: 55px;
+}
+.posts .post-img{
+	background-image: url(img/first-news.png);
+}
+
+.posts li:hover h3{
+	color: #ff6846;
+	text-decoration: underline;
+
+}
+.posts li:hover .post-img{
+	background-size: 110%;
+	transition-duration: 0.5s;
+}
+
+
+@media screen and (max-width:500px){
+	.news{
+		margin: 0;
+	}
+
+	}
